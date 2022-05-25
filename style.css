@@ -1,0 +1,108 @@
+
+*{
+    margin: 0px auto;
+}
+
+body{
+    background-color: #121212;
+}
+
+.nvar{
+    background-color: gray;
+    height: 100px;
+    width: 800px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+.nvar h1{
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.search{
+    background-color: white;
+    width: 300px;
+    height: 30px;
+    border:2px solid black ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: grey;
+    margin-left: 5px;
+}
+
+#login{
+    background-color: blue;
+    color: white;
+    box-shadow: 2px 2px black;
+}
+
+.container{
+    width: 800px;
+    height: 150px;
+    display: flex; 
+}
+
+.container #b1,#b2{
+    background-color:white;
+    width: 450px ;
+    height: 150px;
+    border:1px solid black ;
+    margin-left:1px;
+    margin-top: 20px ;
+    margin-right: 0px;
+}
+#b1  button {
+    margin-top:30px;
+    margin-left:10px ;
+    background-color: yellow;
+
+}
+#b1 h3, p {
+    display: inline;
+}
+
+#b2{
+    margin-left:50px ;
+    width:200px ;
+}
+#b2 button{
+    margin-top:30px ;
+    margin-left: 20px;
+    box-shadow:3px 3px ;
+}
+
+
+.container2{
+    /* height: 150px; */
+    width: 800px;
+
+    margin-top: 30px;
+
+}
+.temp{
+    width:450px;
+    height: 150px;
+    background-color: white;
+    margin-right:400px ;
+}
+
+li{
+    list-style-type: none;
+margin-left: 100px;
+}
+
+ul{
+    display: inline-block;
+    padding: 0px;
+}
+
+#like2{
+        background-color: yellow;
+        margin-top: 30px;
+        margin-left: 10px;
+} 
+
+span{
+    color: blue;
+    text-decoration: underline;
+}
